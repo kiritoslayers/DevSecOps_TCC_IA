@@ -29,7 +29,7 @@ export const ReleaseScreen: React.FC = () => {
     <SkeletonLayout
       drawerFocus="release"
       title="Etapa - RELEASE"
-      subtitle="Nesta etapa do ciclo de DevSecOps, abordaremos formas seguras de realizar o deploy da sua aplicação, utilizando a linguagem de programação e o banco de dados do seu projeto."
+      subtitle="Nesta etapa do ciclo de DevSecOps, abordaremos formas seguras junto a boas práticas para realizar o deploy da sua aplicação, utilizando a linguagem de programação e o banco de dados do seu projeto."
       responseIntro={`Planejamento de um pentest para uma aplicação utilizando "${techValue}" e "${dataBaseValue}":`}
       gptResponse={gptResponse}
       status={status}
