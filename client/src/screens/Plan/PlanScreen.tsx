@@ -28,7 +28,7 @@ export const PlanScreen: React.FC = () => {
     <SkeletonLayout
       drawerFocus="plan"
       title="Etapa - PLAN"
-      subtitle="Nesta parte do ciclo de DevSecOps, iremos fornecer algumas sugestões de planejamento, pensando em segurança da informação, e levantamento de possíveis vulnerabilidades utilizando a linguagem de programação e o banco de dados do seu projeto."
+      subtitle="Nesta parte do ciclo de DevSecOps, iremos fornecer algumas sugestões de planejamento, pensando em segurança da informação e levantamento de possíveis vulnerabilidades, utilizando a linguagem de programação e o banco de dados do seu projeto."
       responseIntro={`Possíveis vulnerabilidades para "${techValue}", com banco de dados "${dataBaseValue}":`}
       gptResponse={gptResponse}
       status={status}
